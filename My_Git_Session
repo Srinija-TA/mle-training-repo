@@ -1,0 +1,99 @@
+Script started on 2023-11-07 17:51:51+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="49" LINES="30"]
+[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ git --version
+[?2004lgit version 2.34.1
+[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ git config --lost[K[K[Kist  --show-origin
+[?2004l[?1h=[K[?1l>[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ git --version
+[?2004lgit version 2.34.1
+[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ git config --list
+[?2004l[?1h=[K[?1l>[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ git config --globa l user.name "Sai Srinija"
+[?2004l[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ git confug[K[Kig --globa l user.email srinijat[K.tummepalli[K[K[Kl@tigeranalytics.com
+[?2004l[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ git config --globa l init.defaultBranch main
+[?2004l[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ git cong[Kfig --list
+[?2004l[?1h=user.name=Sai Srinija[m
+user.email=srinija.tummepal@tigeranalytics.com[m
+init.defaultbranch=main[m
+[K[?1l>[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ git config user.na me
+[?2004lSai Srinija
+[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ git help config
+[?2004l[?1049h[22;0;0t[?1h=GIT-CONFIG(1)      Git Manual     GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or[m
+       global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [--fixed-value] [--show-origin] [--show-scope] [[m -z|--null] name [value [value-pattern]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [--fixed-value] --replace-all name value [value-[m pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [--show-origin] [--show-scope] [-z|--null] [--fi[m xed-value] --get name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [--show-origin] [--show-scope] [-z|--null] [--fi[m xed-value] --get-all name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [--show-origin] [--show-scope] [-z|--null] [--fi[m xed-value] [--name-only] --get-regexp name_regex [m [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [-z|--null] --get-urlmatch name URL[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--fixed-value][m  --unset name [value-pattern][m
+[7monfig(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ git help config
+[?2004l[?1049h[22;0;0t[?1h=GIT-CONFIG(1)      Git Manual     GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or[m
+       global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [--fixed-value] [--show-origin] [--show-scope] [[m -z|--null] name [value [value-pattern]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [--fixed-value] --replace-all name value [value-[m pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [--show-origin] [--show-scope] [-z|--null] [--fi[m xed-value] --get name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [--show-origin] [--show-scope] [-z|--null] [--fi[m xed-value] --get-all name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [--show-origin] [--show-scope] [-z|--null] [--fi[m xed-value] [--name-only] --get-regexp name_regex [m [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [-z|--null] --get-urlmatch name URL[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--fixed-value][m  --unset name [value-pattern][m
+[7monfig(1) line 1 (press h for help or q to quit)[27m[K[K...skipping...
+[m
+                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[m
+      Commands marked with * may be preceded by a[m  number, [4mN[24m.[m
+      Notes in parentheses indicate the behavior [m if [4mN[24m is given.[m
+      A key preceded by a caret indicates the Ctr[m l key; thus ^K is ctrl-K.[m
+[m
+  h  H                 Display this help.[m
+  q  :q  Q  :Q  ZZ     Exit.[m
+ ------------------------------------------------[m ---------------------------[m
+[m
+                           [1mMOVING[0m[m
+[m
+  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m [m lines).[m
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m [m lines).[m
+  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m [m lines).[m
+  b  ^B  ESC-v      *  Backward one window (or [4mN[24m [m lines).[m
+  z                 *  Forward  one window (and s[m et window to [4mN[24m).[m
+  w                 *  Backward one window (and s[m et window to [4mN[24m).[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K...skipping...
+GIT-CONFIG(1)      Git Manual     GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or[m
+       global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [--fixed-value] [--show-origin] [--show-scope] [[m -z|--null] name [value [value-pattern]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [--fixed-value] --replace-all name value [value-[m pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [--show-origin] [--show-scope] [-z|--null] [--fi[m xed-value] --get name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [--show-origin] [--show-scope] [-z|--null] [--fi[m xed-value] --get-all name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [--show-origin] [--show-scope] [-z|--null] [--fi[m xed-value] [--name-only] --get-regexp name_regex [m [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>][m  [-z|--null] --get-urlmatch name URL[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--fixed-value][m  --unset name [value-pattern][m
+[7monfig(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ pwd
+[?2004l/home/srinija2001
+[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ cd[K[Knsno[K[Ka[Kan[K[K[Kano textfile.c
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;19H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2        textfile.c                 [1;48H(B[m[29d(B[0;7m^G(B[m Help     (B[0;7m^O(B[m Write Out(B[0;7m^W(B[m Where Is (B[0;7m^K(B[m Cut[30d(B[0;7m^X(B[m Exit     (B[0;7m^R(B[m Read File(B[0;7m^\(B[m Replace  (B[0;7m^U(B[m Paste[2d[?12l[?25h[?25l[1;34H(B[0;7m*[48G(B[m[?12l[?25h[2d(B[0;1m[31mT[39m(B[m[?25l[?12l[?25hTh[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h i[?25l[?12l[?25hs[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h a[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25hi[?25l[?12l[?25hg[?25l[?12l[?25hn[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25h[42m [49m(B[m[?25l[28d[K[?12l[?25h[2;19H [?25l[?12l[?25h-[?25l[?12l[?25h1[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h i[?25l[?12l[?25hn[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h t[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h (B[0;1m[31mT[39m(B[m[?25l[?12l[?25h(B[0;1m[31mA[39m(B[m[?25l[?12l[?25h(B[0;1m[31mM[39m(B[m[?25l[?12l[?25h(B[0;1m[31mL[39m(B[m[?25l[?12l[?25h(B[0;1m[31mP[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h(B[0;1m[31mE[39m(B[m[?25l[?12l[?25h(B[0;1m[31mP[39m(B[m[?25l[?12l[?25h.[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h (B[0;1m[31mT[39m(B[m[?25l[?12l[?25hTh[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h a[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25hi[?25l[?12l[?25hg[?25l[?12l[?25hn[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25hn[?25l[?12l[?25h(B[0;7m<(B[mnment[K[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h i[?25l[?12l[?25hs[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h a[?25l[?12l[?25hb[?25l[?12l[?25ho[?25l[?12l[?25hu[?25l[?12l[?25hy[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h r[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hd[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25hg[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h (B[0;1m[31mG[39m(B[m[?25l[?12l[?25hGi[?25l[?12l[?25ht[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h t[?25l[?12l[?25hu[?25l[?12l[?25ht[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h s[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h[Cson a[K[?25l[?12l[?25hn[?25l[?12l[?25hd[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h t[?25l[?12l[?25hr[?25l[?12l[?25h(B[0;1m[33mtry[39m(B[m[?25l[?12l[?25htryi[?25l[?12l[?25hn[?25l[?12l[?25hg[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h h[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hd[?25l[?12l[?25hs[?25l[?12l[?25h-[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25h-[?25l[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25hc[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h u[?25l[?12l[?25hs[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25h[32musing[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h a[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h p[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25h[C priv[K[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25h[3G[32mprivate[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h r[?25l[?12l[?25he[?25l[?12l[?25hp[?25l[?12l[?25ho[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h o[?25l[?12l[?25hn[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h (B[0;1m[31mG[39m(B[m[?25l[?12l[?25hGi[?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25hu[?25l[?12l[?25hb[?25l[?12l[?25h.[?25l[29;13H(B[0;7mM-D(B[m DOS Form(B[0;7mM-A(B[m Append  (B[0;7mM-B(B[m Backup Fi[30;2H(B[0;7mC(B[m Cancel   (B[0;7mM-M(B[m Mac Form(B[0;7mM-P(B[m Prepend (B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: textfile.c                   [28;31H(B[m[?12l[?25h[?25l[28;17H[1K (B[0;7m[ Writing... ](B[m[K[1;34H(B[0;7m [48G(B[m[28;17H(B[0;7m[ Wrote 1 line ](B[m[29;13H(B[0;7m^O(B[m Write Out(B[0;7m^W(B[m Where Is (B[0;7m^K(B[m Cut[K[30;2H(B[0;7mX(B[m Exit     (B[0;7m^R(B[m Read File(B[0;7m^\(B[m Replace  (B[0;7m^U(B[m Paste[K[?12l[?25h[2;26H[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ cd/home/srinija200 1/textfile.c
+[?2004lbash: cd/home/srinija2001/textfile.c: No such file or directory
+[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ ls
+[?2004lMy_Git_Session   my-unix_session   textfile.c
+My_Unix_Session  my_unix_session
+[0m[01;34mgit[0m              my_unix_sessions
+[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ cd textfi[K[K[K[K[K[K[K[Kat textfile.c
+[?2004lThis is assignment-1 in TAMLEP. This assignment is about recording Git tutorial sesson and trying hands-on-exercises using a private repo on Github.
+[?2004h]0;srinija2001@DESKTOP-LFG03C9: ~[01;32msrinija2001@DESKTOP-LFG03C9[00m:[01;34m~[00m$ git init[K[K[K[K[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2023-11-07 18:23:01+05:30 [COMMAND_EXIT_CODE="0"]
